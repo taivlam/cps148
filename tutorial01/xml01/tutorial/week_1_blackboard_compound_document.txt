@@ -1,0 +1,4 @@
+Prompt:
+> Please use this week's forum to discuss various kinds of compound documents that could be used. Your responses only need to be a paragraph in length.
+
+A compound document is an XML document that contains elements from different vocabularies or schemas, such as HTML or XML schemas.  Hypothetically, the possibilities are limitless.  Although the book did not discuss compound documents in detail, I will try my best to think of hypothetical combinations that could be useful.  One example could be a compound document of HTML and OMF (Weather Observation Definition Format), which could be used with processing instructions to ultimately display weather information on a web page.  Another example could be a compound document of HTML and RSS (Really Simple Syndication), which could be use to ultimately process a website with a RSS ticker sidebar.
