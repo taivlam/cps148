@@ -1,0 +1,6 @@
+Prompt:
+> Please post a scenario when you might use a customized entity.
+
+A customized entity is an entity that is manually added "by hand" to the DTD of an XML document.  A customized entity is a shorthand label that will be used frequently throughout an XML document, instead of repeatedly typing out the longer text string that the corresponding customized entity corresponds to.  A scenario in which I might use a customized entity is to refer back to label for product condition (such as new, reburbished, open box, like new, good, fair, or poor) on a customer to customer commerce site (similar to eBay or third party Amazon sellers).
+
+March 27, 2021
