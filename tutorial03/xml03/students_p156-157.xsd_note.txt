@@ -1,0 +1,7 @@
+The following command simply validates an XML document:
+```
+xmllint --noout ads.xml
+```
+
+Source:
+https://support.newspapersystems.com/hc/en-us/articles/204871565-Validating-an-XML-File

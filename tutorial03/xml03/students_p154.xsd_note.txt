@@ -1,0 +1,10 @@
+In `pacman`, the `docbook-xml` and `docbook-xsl` packages provide the command `xmllint` in the terminal emulator for Arch Linux based distros (if both packages aren't already installed).
+
+To validate a Schema document, use the following command:
+```
+xmllint --schema yourxsd.xsd yourxml.xml --noout
+```
+
+Sources:
+https://wiki.archlinux.org/index.php/DocBook
+https://stackoverflow.com/questions/42809088/how-to-validate-a-xml-file-with-xsd-through-xmllint#42809339

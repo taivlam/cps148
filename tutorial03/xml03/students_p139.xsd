@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on XML
+   Tutorial 3
+   Tutorial Case
+
+   Austin Technical College information technology schema
+   Author:  Tai Lam
+   Date:  April 2, 2021
+
+   Filename:          students.xsd
+   Supporting Files:  students.xml
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="lastName" type="xs:string" />
+   <xs:element name="firstName" type="xs:string" />
+   <xs:element name="dateOfEnrollment" type="xs:string" />
+   <xs:element name="credits" type="xs:string" />
+   <xs:element name="comment" type="xs:string" />
+</xs:schema>
