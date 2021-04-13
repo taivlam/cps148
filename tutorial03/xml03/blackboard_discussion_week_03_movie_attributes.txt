@@ -1,0 +1,24 @@
+# Blackboard Disussion Post - Week 3
+
+## Question
+
+> What attributes might you create for a "movie" XML element? What default, if any, would you use for the attributes? Which values, if any, might be fixed?
+
+## Response
+
+I would have the following items as required attributes:
+* title
+* year (input of something like `unknown` could be allowed)
+* director (input such as `unknown` could be allowed)
+
+The following items could have a default value of being empty:
+* time/length of duration
+* cast
+* distributor
+* head of cinematography
+* lead composer
+* budget
+* box office earnings
+* score(s) from aggregate rating sites (such as IMDB, Rotten Tomatoes, and Metacritic)
+* trailer video
+* movie poster
