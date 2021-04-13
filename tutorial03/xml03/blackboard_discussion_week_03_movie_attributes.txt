@@ -10,15 +10,24 @@ I would have the following items as required attributes:
 * title
 * year (input of something like `unknown` could be allowed)
 * director (input such as `unknown` could be allowed)
+This is because these are critical pieces of information needed to identify a movie.
 
-The following items could have a default value of being empty:
+The following items could have either be empty or have only 1 value:
 * time/length of duration
+* budget
+* box office earnings
+This is because these attributes should only have one value yet not critical to identifying a movie.
+
+The following items could have a default value of being empty and could have arbitrarily many entries:
+* country
+* language
 * cast
 * distributor
 * head of cinematography
 * lead composer
-* budget
-* box office earnings
 * score(s) from aggregate rating sites (such as IMDB, Rotten Tomatoes, and Metacritic)
-* trailer video
-* movie poster
+* trailer video(s)
+* movie poster(s)
+This is because there could be multiple values/entries for these attributes.
+
+Of course, I would have to test out data from real movies to see if these statements hold up, but this would be my first guess or rough draft at making an XML document for a `movie` XML element.
