@@ -12,7 +12,8 @@
     Supporting Files: studentsfc.xsd, studentsrd.xsd, studentsvb.xsd
 -->
 
-<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="studentsfc.xsd">
     <student stuID="I8900-041" courseID="PSAT-080-5">
         <lastName>Garcia</lastName>
         <firstName>Georgianna</firstName>
