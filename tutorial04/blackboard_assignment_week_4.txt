@@ -1,0 +1,9 @@
+# Blackboard Discussion Assignment - Week 4
+
+## Question
+
+> Think of a scenario in which a company would need to create compound documents from at least two vocabularies. What elements could have the same name and would cause a name collision without namespacing?
+
+## Answer
+
+

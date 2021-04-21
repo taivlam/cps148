@@ -1,0 +1,9 @@
+# Blackboard Discussion Assignment - Week 5
+
+## Question
+
+> Templates can be defined for any node set specified by an XPath expression. Suggest a situation when style sheet content should be placed in the root template, and when content should be placed in a specific node template.
+
+## Answer
+
+
