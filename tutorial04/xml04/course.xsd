@@ -32,9 +32,9 @@
                             <xs:element name="lastName" type="xs:string" />
                         </xs:sequence>
                     </xs:complexType>
-                 </xs:element>
+                </xs:element>
             </xs:sequence>
-           <xs:attribute name="courseID" type="xs:ID" />
+            <xs:attribute name="courseID" type="xs:ID" />
         </xs:complexType>
     </xs:element>
 
