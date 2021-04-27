@@ -12,6 +12,9 @@
    Supporting Files: course.xsd, course.css, students.css, studentsvb.xsd
 -->
 
+<?xml-stylesheet type="text/css" href="students.css" ?>
+<?xml-stylesheet type="text/css" href="course.css" ?>
+
 <crs:course courseID="PSAT-080-5"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:crs="http://example.com/higheredtestprep/course/ns"
