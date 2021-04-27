@@ -12,7 +12,10 @@
    Supporting Files: 
 -->
 
-<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+  xmlns="http://example.com/higheredtestprep/students/ns"
+  targetNamespace="http://example.com/higheredtestprep/students/ns"
+>
 
     <xsi:element name="students">
         <xsi:complexType>

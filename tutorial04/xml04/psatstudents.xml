@@ -15,7 +15,8 @@
 <crs:course courseID="PSAT-080-5"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:crs="http://example.com/higheredtestprep/course/ns"
-  xsi:schemaLocation="http://example.com/higheredtestprep/course/ns course.xsd">
+  xsi:schemaLocation="http://example.com/higheredtestprep/course/ns course.xsd"
+>
 
     <name>
         <title>PSAT Mathematics Course</title>
@@ -78,5 +79,4 @@
         </student>
      
     </stu:students>
-    <!--Validating this document with studentsvb.xsd fails-->
 </crs:course>

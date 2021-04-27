@@ -12,7 +12,10 @@
    Supporting Files: 
 -->
 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns="http://example.com/higheredtestprep/course/ns"
+  targetNamespace="http://example.com/higheredtestprep/course/ns"
+>
     <xs:element name="course">
         <xs:complexType>
             <xs:sequence>
