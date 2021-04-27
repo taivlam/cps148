@@ -16,6 +16,8 @@
   xmlns="http://example.com/higheredtestprep/course/ns"
   targetNamespace="http://example.com/higheredtestprep/course/ns"
   xmlns:stu="http://example.com/higheredtestprep/students/ns"
+  elementFormDefault="qualified"
+  attributeFormDefault="unqualified"
 >
     <xs:import
       namespace="http://example.com/higheredtestprep/students/ns"

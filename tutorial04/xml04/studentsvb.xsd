@@ -15,6 +15,8 @@
 <xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema"
   xmlns="http://example.com/higheredtestprep/students/ns"
   targetNamespace="http://example.com/higheredtestprep/students/ns"
+  elementFormDefault="qualified"
+  attributeFormDefault="unqualified"
 >
 
     <xsi:element name="students">
