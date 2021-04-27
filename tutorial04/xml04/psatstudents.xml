@@ -12,9 +12,9 @@
    Supporting Files: course.xsd, course.css, students.css, studentsvb.xsd
 -->
 
-<course courseID="PSAT-080-5"
+<crs:course courseID="PSAT-080-5"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns="http://example.com/higheredtestprep/course/ns"
+  xmlns:crs="http://example.com/higheredtestprep/course/ns"
   xsi:schemaLocation="http://example.com/higheredtestprep/course/ns course.xsd">
 
     <name>
@@ -37,8 +37,8 @@
         <lastName>Polygoni</lastName>
     </instructor>
     
-    <students
-      xmlns="http://example.com/higheredtestprep/students/ns"
+    <stu:students
+      xmlns:stu="http://example.com/higheredtestprep/students/ns"
       xsi:schemaLocation="http://example.com/higheredtestprep/course/ns studentsvb.xsd">
         
         <student stuID="I8900-041" courseID="PSAT-080-5">
@@ -77,6 +77,6 @@
             <pretest level="L">30</pretest>
         </student>
      
-    </students>
+    </stu:students>
     
-</course>
+</crs:course>
