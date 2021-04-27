@@ -16,6 +16,10 @@
   xmlns="http://example.com/higheredtestprep/course/ns"
   targetNamespace="http://example.com/higheredtestprep/course/ns"
 >
+    <xs:import
+      namespace="http://example.com/higheredtestprep/students/ns"
+      schemaLocation="studentsvb.xsd"
+    />
     <xs:element name="course">
         <xs:complexType>
             <xs:sequence>
