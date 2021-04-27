@@ -15,6 +15,7 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns="http://example.com/higheredtestprep/course/ns"
   targetNamespace="http://example.com/higheredtestprep/course/ns"
+  xmlns:stu="http://example.com/higheredtestprep/students/ns"
 >
     <xs:import
       namespace="http://example.com/higheredtestprep/students/ns"
@@ -40,6 +41,7 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
+                <xs:element ref="stu:students" />
             </xs:sequence>
             <xs:attribute name="courseID" type="xs:ID" />
         </xs:complexType>
