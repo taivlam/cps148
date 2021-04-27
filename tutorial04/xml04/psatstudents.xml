@@ -78,5 +78,5 @@
         </student>
      
     </stu:students>
-    
+    <!--Validating this document with studentsvb.xsd fails-->
 </crs:course>
