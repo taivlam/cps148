@@ -10,7 +10,7 @@
 
     This file contains styles used in the psatstudents.xml file.
 */
-
+@namespace "http://example.com/higheredtestprep/course/ns";
 
 course {
     display: block;
