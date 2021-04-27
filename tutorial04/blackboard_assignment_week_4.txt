@@ -4,6 +4,10 @@
 
 > Think of a scenario in which a company would need to create compound documents from at least two vocabularies. What elements could have the same name and would cause a name collision without namespacing?
 
-## Answer
+## Answer: Namespacing to Prevent Name Collisions in Compound Documents
 
+Taking the example from Tutorial 4 on page 226 in the book, a company that is creating a compound document from RSS and iTunes would require namespacing to prevent name collisions.  For example, the `<category>` and `<image>` elements would require namespacing to prevent ambiguous name collisions between RSS and iTunes.
 
+Sources:
+https://github.com/simplepie/simplepie-ng/wiki/Spec:-iTunes-Podcast-RSS
+https://validator.w3.org/feed/docs/rss2.html
