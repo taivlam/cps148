@@ -5,13 +5,15 @@
    Tutorial Case
 
    Chesterton Financial Stock Information
-   Author: 
-   Date:   
+   Author: Tai Lam
+   Date: April 27, 2021
 
-   Filename:         stock.xml
+   Filename: stock.xml
    Supporting Files: down.png, same.png, stock.css, stock.xsl, up.png
 
 -->
+
+<?xml-stylesheet type="text/xsl" href="stock.xsl" ?>
 
 <portfolio>
 
