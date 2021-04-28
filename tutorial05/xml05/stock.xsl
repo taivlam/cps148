@@ -16,7 +16,19 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     
     <xsl:template match=”/”>
-        
+        <html>
+            <head>
+                <title>Portfolio Stocks</title>
+                <link href="stock.css" rel="stylesheet" type="text/css" />
+            </head>
+            
+            <body>
+                <header>
+                    <h1>Chesterton Financial</h1>
+                    <h2>Portfolio Stocks</h2>
+                </header>
+            </body>
+        </html>
     </xsl:template>
     
 </xsl:stylesheet>
