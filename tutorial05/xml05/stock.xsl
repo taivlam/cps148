@@ -13,8 +13,6 @@
 
 -->
 
-<!--I guess p. 268-269 is done?-->
-
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     
