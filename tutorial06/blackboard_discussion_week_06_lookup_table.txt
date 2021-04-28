@@ -1,0 +1,9 @@
+# Week 6
+
+## Question
+
+> Suggest a real world scenario where a lookup table would be a valuable resource for an XSLT application.
+
+## Answer
+
+
