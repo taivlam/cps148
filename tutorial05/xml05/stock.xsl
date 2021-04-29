@@ -38,6 +38,13 @@
                     <h1>Chesterton Financial</h1>
                     <h2>Portfolio Stocks</h2>
                 </header>
+                <section>
+                    <article>
+                        <h1>
+                            <xsl:value-of select="portfolio/stock/sName" />
+                        </h1>
+                    </article>
+                </section>
             </body>
         </html>
     </xsl:template>
