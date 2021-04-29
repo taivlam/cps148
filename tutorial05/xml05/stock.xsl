@@ -53,6 +53,7 @@
             </h1>
             <xsl:apply-templates select="today" />
             <img src="{sName/@symbol}.png" alt="3 month history" />
+            <!--This book should be explicit on copy & pasting all these files...-->
             <p>
                 <xsl:value-of select="description" />
             </p>
