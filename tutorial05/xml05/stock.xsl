@@ -50,6 +50,10 @@
             <h1>
                 <xsl:value-of select="sName" />
             </h1>
+            <p>
+                <xsl:value-of select="description" />
+            </p>
+            <hr />
         </article>
     </xsl:template>
     
