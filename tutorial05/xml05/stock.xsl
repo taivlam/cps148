@@ -52,6 +52,7 @@
                 (<xsl:value-of select="sName/@symbol" />)
             </h1>
             <xsl:apply-templates select="today" />
+            <img src="{sName/@symbol}.png" alt="3 month history" />
             <p>
                 <xsl:value-of select="description" />
             </p>
