@@ -39,16 +39,18 @@
                     <h2>Portfolio Stocks</h2>
                 </header>
                 <section>
-                    <xsl:for-each select="portfolio/stock">
-                        <article>
-                            <h1>
-                                <xsl:value-of select="sName" />
-                            </h1>
-                        </article>
-                    </xsl:for-each>
+                    <xsl:apply-templates select="portfolio/stock" />
                 </section>
             </body>
         </html>
+    </xsl:template>
+    
+    <xsl:template match="stock">
+        <article>
+            <h1>
+                <xsl:value-of select="sName" />
+            </h1>
+        </article>
     </xsl:template>
     
 </xsl:stylesheet>
