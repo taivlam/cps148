@@ -51,6 +51,7 @@
                 <xsl:value-of select="sName" />
                 (<xsl:value-of select="sName/@symbol" />)
             </h1>
+            <xsl:apply-templates select="today" />
             <p>
                 <xsl:value-of select="description" />
             </p>
@@ -72,7 +73,20 @@
                     <th>Volume</th>
                 </tr>
             </thead>
+            <tbody>
+                <tr>
+                    <xsl:apply-templates select="@current" />
+                    <xsl:apply-templates select="@open" />
+                    <xsl:apply-templates select="@high" />
+                    <xsl:apply-templates select="@low" />
+                    <xsl:apply-templates select="@vol" />
+                </tr>
+            </tbody>
         </table>
+    </xsl:template>
+    
+    <xsl:template match="@open|@high|@low|@current|@vol">
+        <td><xsl:value-of select="." /></td>
     </xsl:template>
     
 </xsl:stylesheet>
