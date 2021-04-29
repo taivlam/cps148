@@ -66,9 +66,10 @@
         <table>
             <thead>
                 <tr>
-                    <th colspan="5">Current Stock Values</th>
+                    <th colspan="6">Current Stock Values</th>
                 </tr>
                 <tr>
+                    <th></th>
                     <th>Current</th>
                     <th>Open</th>
                     <th>High</th>
@@ -78,6 +79,19 @@
             </thead>
             <tbody>
                 <tr>
+                    <td>
+                        <xsl:choose>
+                            <xsl:when test="@current &lt; @open">
+                                <img src="down.png" alt="down" />
+                            </xsl:when>
+                            <xsl:when test="@current > @open">
+                                <img src="up.png" alt="up" />
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <img src="same.png" alt="same" />
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </td>
                     <xsl:apply-templates select="@current" />
                     <xsl:apply-templates select="@open" />
                     <xsl:apply-templates select="@high" />
