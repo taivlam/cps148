@@ -6,4 +6,10 @@
 
 ## Answer
 
-The example situation I will consider is *.  I place the style sheet content in the root template for *.  On the other hand, I would place the style sheet content in the specific note template for *.
+* Title: Templates: Root vs. Specific Node
+
+The example situation I will consider is listing entries for books at a library.
+
+I place the style sheet content in the root template for a table that would contain common attributes that all items at a library would have.  For example, the table would include title, author, publisher, year, summary, and more.
+
+On the other hand, I would place the style sheet content in the specific note template for specific library item entries that are part of a series.  For example, if the entry happened to be Harry Potter and the Chamber of Secrets, I would have a table cell that would generate the number in the series that the item is in and possibly the other entries in the same series if the XML entry had something like "yes" or "true" for being in a series; otherwise, the XSL transform would do nothing if the corresponding XML entry said "no" or "false".
