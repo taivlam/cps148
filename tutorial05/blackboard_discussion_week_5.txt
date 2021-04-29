@@ -6,4 +6,4 @@
 
 ## Answer
 
-
+The example situation I will consider is *.  I place the style sheet content in the root template for *.  On the other hand, I would place the style sheet content in the specific note template for *.
