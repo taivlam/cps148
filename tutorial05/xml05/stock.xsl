@@ -27,9 +27,14 @@
                 <title>Portfolio Stocks</title>
                 <link href="stock.css" rel="stylesheet" type="text/css" />
             </head>
-            
             <body>
                 <header>
+                    <section>
+                        Last Updated:
+                        <xsl:value-of select="portfolio/date" />
+                        at
+                        <xsl:value-of select="portfolio/time" />
+                    </section>
                     <h1>Chesterton Financial</h1>
                     <h2>Portfolio Stocks</h2>
                 </header>
