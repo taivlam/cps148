@@ -49,6 +49,7 @@
         <article>
             <h1>
                 <xsl:value-of select="sName" />
+                (<xsl:value-of select="sName/@symbol" />)
             </h1>
             <p>
                 <xsl:value-of select="description" />
