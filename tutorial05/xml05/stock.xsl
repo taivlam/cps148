@@ -58,4 +58,21 @@
         </article>
     </xsl:template>
     
+    <xsl:template match="today">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="5">Current Stock Values</th>
+                </tr>
+                <tr>
+                    <th>Current</th>
+                    <th>Open</th>
+                    <th>High</th>
+                    <th>Low</th>
+                    <th>Volume</th>
+                </tr>
+            </thead>
+        </table>
+    </xsl:template>
+    
 </xsl:stylesheet>
