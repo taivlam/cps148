@@ -18,14 +18,21 @@
   xmlns:df="http://example.com/dateformats">
     
     <df:months>
-        <m>January</m><m>February</m><m>March</m><m>April</m>
-        <m>May</m><m>June</m><m>July</m><m>August</m><m>September</m>
-        <m>October</m><m>November</m><m>December</m>
+        <m>January</m>
+        <m>February</m>
+        <m>March</m>
+        <m>April</m>
+        <m>May</m>
+        <m>June</m>
+        <m>July</m>
+        <m>August</m>
+        <m>September</m>
+        <m>October</m>
+        <m>November</m>
+        <m>December</m>
     </df:months>
     
-    <xsl:variable name="monthNames" 
-      select="document('')/xsl:stylesheet/df:months/m"
-    />
+    <xsl:variable name="monthNames" select="document('')/xsl:stylesheet/df:months/m" />
     
     <xsl:template match="releaseDate | r:reviewDate">
         <xsl:variable name="yearValue" select="substring-before(., '-')" />
