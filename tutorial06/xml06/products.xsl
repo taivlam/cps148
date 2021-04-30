@@ -49,6 +49,9 @@
                     <section id="reviews">
                         <h1>Customer Reviews</h1>
                         <p>
+                            <xsl:variable name="avgRating" select="sum($reviewList/r:rating) div count($reviewList/r:rating)" />
+                            <xsl:value-of select="format-number($avgRating, '0.00')"/> out of 5 stars
+                            
                             (<xsl:value-of select="count($reviewList)" /> reviews)
                         </p>
                         <xsl:apply-templates select="$reviewList[position() &lt;= 5]"/>
@@ -75,7 +78,7 @@
             <tr>
                 <th>List Price: </th>
                 <td>
-                    <xsl:value-of select="price" />
+                    <xsl:value-of select="format-number(price, '$#,#0.00')" />
                 </td>
             </tr>
             <tr>
