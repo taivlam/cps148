@@ -14,9 +14,15 @@
 
 
 <xsl:stylesheet version="1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+     xmlns:r="http://example.com/reviews">
     
     <xsl:variable name="productID" select="'vg10551'" />
+    
+    <xsl:variable name="reviewList"
+      select="document('reviews.xml')/r:reviews/r:review
+      [@pid=$productID]"
+    />
     
     <xsl:output method="html"
       doctype-system="about:legacy-compat"
