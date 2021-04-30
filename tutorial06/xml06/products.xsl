@@ -46,9 +46,9 @@
                     <section id="productSummary">
                         <xsl:apply-templates select="products/product[@pid=$productID]" />
                     </section>
-                    <section id=”reviews”>
+                    <section id="reviews">
                         <h1>Customer Reviews</h1>
-                        <xsl:apply-templates select=”$reviewList”/>
+                        <xsl:apply-templates select="$reviewList"/>
                     </section>
                 </div>
             </body>
