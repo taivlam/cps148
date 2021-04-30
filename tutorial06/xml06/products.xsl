@@ -109,7 +109,27 @@
     </xsl:template>
     
     <xsl:template name="makeBarChart">
-        <table id="barChart"></table>
+        <table id="barChart">
+            <xsl:call-template name="drawBars">
+                <xsl:with-param name="stars" select="5" />
+            </xsl:call-template>
+        </table>
+    </xsl:template>
+    
+    <xsl:template name="drawBars">
+        <xsl:param name="stars" />
+        <xsl:if test="$stars > 0">
+            <tr>
+                <th>
+                </th>
+                <td>
+                </td>
+            </tr>
+            
+            <xsl:call-template name="drawBars">
+                <xsl:with-param name="stars" select="$stars - 1" />
+            </xsl:call-template>
+        </xsl:if>
     </xsl:template>
     
 </xsl:stylesheet>
