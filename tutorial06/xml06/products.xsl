@@ -5,10 +5,10 @@
    Tutorial Case
 
    Harpe Gaming Products Style Sheet
-   Author: 
-   Date:   
+   Author: Tai Lam
+   Date: April 29, 2021
 
-   Filename:         products.xsl
+   Filename: products.xsl
    Supporting Files: 
 -->
 

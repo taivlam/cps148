@@ -5,14 +5,15 @@
    Tutorial Case
 
    Harpe Gaming Store Products
-   Author: 
-   Date:   
+   Author: Tai Lam
+   Date: April 29, 2021 
 
-   Filename:         products.xml
+   Filename: products.xml
    Supporting Files: products.xsl
 
 -->
 
+<?xml-stylesheet type="text/xsl" href="products.xsl" ?>
 
 <products>
    <product pid="vg10551">
