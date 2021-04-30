@@ -119,8 +119,11 @@
     <xsl:template name="drawBars">
         <xsl:param name="stars" />
         <xsl:if test="$stars > 0">
+            <xsl:variable name="dataCount" select="count($reviewList[r:rating=$stars])" />
             <tr>
                 <th>
+                    <xsl:value-of select="$stars" /> star
+                    (<xsl:value-of select="$dataCount" />)
                 </th>
                 <td>
                 </td>
