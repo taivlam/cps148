@@ -6,4 +6,6 @@
 
 ## Answer
 
+* Title: Lookup Table for XSLT
 
+An example of a real world scenario where a lookup table would be a valuable resource for an XSLT application is *.
