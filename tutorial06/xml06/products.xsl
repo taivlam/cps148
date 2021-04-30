@@ -17,6 +17,8 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
      xmlns:r="http://example.com/reviews">
     
+    <xsl:include href="reviews.xsl" />
+    
     <xsl:variable name="productID" select="'vg10551'" />
     
     <xsl:variable name="reviewList"
@@ -30,27 +32,26 @@
       indent="yes"
     />
     
-    
     <xsl:template match="/">
-        
         <html>
             <head>
                 <title><xsl:value-of select="products/product[@pid=$productID]/title" /></title>
                 <link href="harpe.css" rel="stylesheet" type="text/css" />
             </head>
-            
             <body>
                 <div id="wrap">
-                <header>
-                    <h1>Harpe Gaming</h1>
-                </header>
-                <section id="productSummary">
-                    <xsl:apply-templates select="products/product[@pid=$productID]" />
-                </section>
-                  
+                    <header>
+                        <h1>Harpe Gaming</h1>
+                    </header>
+                    <section id="productSummary">
+                        <xsl:apply-templates select="products/product[@pid=$productID]" />
+                    </section>
+                    <section id=”reviews”>
+                        <h1>Customer Reviews</h1>
+                        <xsl:apply-templates select=”$reviewList”/>
+                    </section>
                 </div>
             </body>
-             
         </html>
     </xsl:template>
     
