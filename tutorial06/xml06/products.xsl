@@ -20,6 +20,7 @@
     <xsl:include href="hglibrary.xsl" />
     <xsl:include href="reviews.xsl" />
     
+    <!--Change between dancing Game #1 (vg10551) and basketball Game # (vg10552)2-->
     <xsl:param name="productID" select="'vg10551'" />
     
     <xsl:variable name="reviewList" select="document('reviews.xml')/r:reviews/r:review [@pid=$productID]" />
@@ -126,6 +127,8 @@
                     (<xsl:value-of select="$dataCount" />)
                 </th>
                 <td>
+                    <xsl:variable name="percent" select="100*($dataCount div count($reviewList))" />
+                    <img src="solidbar.png" alt="" height="18px" width="{concat($percent, 'px')}" />
                 </td>
             </tr>
             
