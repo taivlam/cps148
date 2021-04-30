@@ -8,4 +8,4 @@
 
 * Title: Lookup Table for XSLT
 
-An example of a real world scenario where a lookup table would be a valuable resource for an XSLT application is *.
+An example of a real world scenario where a lookup table would be a valuable resource for an XSLT application is a course catalog search box or search engine for a college/university.  For example, as one way of using the search box, a student could search for courses to take for next semester by first searching in the Chemistry major/department as an example, and an XSLT application would use a lookup table to find all courses filed under "Chemistry" for next semester, fall 2021.
