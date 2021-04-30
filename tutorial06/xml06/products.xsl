@@ -59,6 +59,9 @@
                             <xsl:value-of select="format-number($avgRating, '0.00')"/> out of 5 stars
                             
                             (<xsl:value-of select="count($reviewList)" /> reviews)
+                            
+                            <xsl:call-template name="makeBarChart"></xsl:call-template>
+                            
                         </p>
                         <xsl:apply-templates select="$reviewList[position() &lt;= 5]"/>
                     </section>
@@ -103,6 +106,10 @@
         
         <xsl:copy-of select="summary/*" />
         
+    </xsl:template>
+    
+    <xsl:template name="makeBarChart">
+        <table id="barChart"></table>
     </xsl:template>
     
 </xsl:stylesheet>
