@@ -48,6 +48,9 @@
                     </section>
                     <section id="reviews">
                         <h1>Customer Reviews</h1>
+                        <p>
+                            (<xsl:value-of select="count($reviewList)" /> reviews)
+                        </p>
                         <xsl:apply-templates select="$reviewList"/>
                     </section>
                 </div>
