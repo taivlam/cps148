@@ -15,7 +15,9 @@
 
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-
+    
+    <xsl:variable name="productID" select="'vg10552'" />
+    
     <xsl:output method="html"
       doctype-system="about:legacy-compat"
       encoding="UTF-8"
@@ -27,7 +29,7 @@
         
         <html>
             <head>
-                <title><xsl:value-of select="products/product[@pid='vg10551']/title" /></title>
+                <title><xsl:value-of select="products/product[@pid=$productID]/title" /></title>
                 <link href="harpe.css" rel="stylesheet" type="text/css" />
             </head>
             
@@ -37,7 +39,7 @@
                     <h1>Harpe Gaming</h1>
                 </header>
                 <section id="productSummary">
-                    <xsl:apply-templates select="products/product[@pid='vg10551']" />
+                    <xsl:apply-templates select="products/product[@pid=$productID]" />
                 </section>
                   
                 </div>
