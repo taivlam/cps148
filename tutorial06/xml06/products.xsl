@@ -16,7 +16,7 @@
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     
-    <xsl:variable name="productID" select="'vg10552'" />
+    <xsl:variable name="productID" select="'vg10551'" />
     
     <xsl:output method="html"
       doctype-system="about:legacy-compat"
