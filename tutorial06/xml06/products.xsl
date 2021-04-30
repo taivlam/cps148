@@ -14,24 +14,17 @@
 
 
 <xsl:stylesheet version="1.0"
-    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-     xmlns:r="http://example.com/reviews">
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:r="http://example.com/reviews">
     
     <xsl:include href="hglibrary.xsl" />
     <xsl:include href="reviews.xsl" />
     
-    <xsl:variable name="productID" select="'vg10551'" />
+    <xsl:param name="productID" select="'vg10551'" />
     
-    <xsl:variable name="reviewList"
-      select="document('reviews.xml')/r:reviews/r:review
-      [@pid=$productID]"
-    />
+    <xsl:variable name="reviewList" select="document('reviews.xml')/r:reviews/r:review [@pid=$productID]" />
     
-    <xsl:output method="html"
-      doctype-system="about:legacy-compat"
-      encoding="UTF-8"
-      indent="yes"
-    />
+    <xsl:output method="html" doctype-system="about:legacy-compat" encoding="UTF-8" indent="yes" />
     
     <xsl:template match="/">
         <html>
