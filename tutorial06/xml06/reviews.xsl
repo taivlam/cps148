@@ -27,6 +27,15 @@
         </h2>
         <table id="reviewTable">
             <tr>
+                <th>By:</th>
+                <td>
+                    <xsl:variable name="customerID" select="current()/@cid" />
+                    <xsl:value-of select="$customerList[@cid=$customerID]/c:nickname" />
+                    (<xsl:value-of select="$customerList[@cid=$customerID]/c:city" />,
+                    <xsl:value-of select="$customerList[@cid=$customerID]/c:state" />)
+                </td>
+            </tr>
+            <tr>
                 <th>Review Date:</th>
                 <td>
                     <xsl:value-of select="r:reviewDate" />
