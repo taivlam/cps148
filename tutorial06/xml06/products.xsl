@@ -81,7 +81,9 @@
                 </td>
             </tr>
         </table>
-        <xsl:value-of select="summary" />
+        
+        <xsl:copy-of select="summary/*" />
+        
     </xsl:template>
     
 </xsl:stylesheet>
