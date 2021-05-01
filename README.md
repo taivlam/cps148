@@ -89,6 +89,16 @@ or I could repeat the macro `<number>` times with:
 <number>@q
 ```
 
+## Git Version Control Is the Best For XML
+
+The tasks at hand were a lot more straightforward in HTML: upload everything onto GitHub when the assignment was complete.
+
+However, you make changes so frequently in XML that it's best just to just some form of Git to save all of your changes.
+
+There was a clearer end goal/result to be had in HTML, with an overarching goal of finishing the JavaJam website at the very end of the course.
+
+Meanwhile, every chapter/tutorial is essentially a stand-alone sandbox activity that is over once the chapter is over - I didn't realize this unti I was about to start Tutorial 4.  So, use Git early if you plan on using it for an XML class based on this book!
+
 ## License
 
 All the CSS, HTML, XML, XSD, and XSL files and file contained herein are licensed under the GPL license, version 3.  The CSS, XML, XSD, XSL, and PNG image assets are copyrighted material the use of which has not been specifically authorized by the copyright owner, Cengage Learning, Inc.  I am using such assets under the "Fair Use" doctrine of copyrighted material for educational purposes, as provided for in section 107 of the US Copyright Law.
