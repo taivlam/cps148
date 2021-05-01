@@ -101,4 +101,4 @@ Meanwhile, every chapter/tutorial is essentially a stand-alone sandbox activity 
 
 ## License
 
-All the CSS, HTML, XML, XSD, and XSL files and file contained herein are licensed under the GPL license, version 3.  The CSS, XML, XSD, XSL, and PNG image assets are copyrighted material the use of which has not been specifically authorized by the copyright owner, Cengage Learning, Inc.  I am using such assets under the "Fair Use" doctrine of copyrighted material for educational purposes, as provided for in section 107 of the US Copyright Law.
+All the CSS, HTML, Markdown, XML, XSD, and XSL files contained herein are licensed under the GPL license, version 3.  The CSS, XML, XSD, XSL, and PNG image assets are copyrighted material the use of which has not been specifically authorized by the copyright owner, Cengage Learning, Inc.  I am using such assets under the "Fair Use" doctrine of copyrighted material for educational purposes, as provided for in section 107 of the US Copyright Law.
